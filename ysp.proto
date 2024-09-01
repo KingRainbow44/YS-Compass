@@ -1,0 +1,7 @@
+syntax = "proto3";
+package ysp;
+
+option java_package = "moe.seikimo.ysp";
+option java_outer_classname = "YSProtocol";
+option csharp_namespace = "YSP";
+option go_package = "github.com/seiKiMo-Inc/ysp";
