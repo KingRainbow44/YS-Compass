@@ -7,6 +7,22 @@
     src: url(/fonts/Rubik.ttf);
 }
 
+html {
+    --contexify-menu-bgColor: rgba(40,40,40,.98);
+    --contexify-separator-color: #4c4c4c;
+    --contexify-item-color: #fff;
+    --contexify-activeItem-color: #fff;
+    --contexify-activeItem-bgColor: #3498db;
+    --contexify-rightSlot-color: #6f6e77;
+    --contexify-activeRightSlot-color: #fff;
+    --contexify-arrow-color: #6f6e77;
+    --contexify-activeArrow-color: #fff;
+}
+
 body {
-    @apply h-full m-0;
+    @apply h-screen m-0 overflow-hidden;
+}
+
+span {
+    font-family: "Open Sans", sans-serif;
 }
